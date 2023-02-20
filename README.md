@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Layout de uma página de busca de blocos de carnaval
 
-- [Acesse o projeto finalizado, online clicando aqui](https://carlimaraujo.github.io/Carnaval/)
+- [Acesse o projeto finalizado, online clicando aqui](https://carlimaraujo.github.io/carnaval/)
 
 
 
