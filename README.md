@@ -3,14 +3,11 @@
 <p align="center">
 Layout de uma página de busca de blocos de carnaval desenvolvido em um evento promovido pela <a href="https://rocketseat.com.br">RocketSeat</a> <br/>
 
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
-
-
 
 <br>
 
@@ -32,8 +29,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Layout de uma página de busca de blocos de carnaval
 
 - [Acesse o projeto finalizado, online clicando aqui](https://carlimaraujo.github.io/carnaval/)
-
-
 
 ## 🔖 Layout
 
