@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  position: relative;
+  font-family: "Roboto";
+}
+
+header {
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+}
+
+header img {
+  height: 34.5rem;
+}
+
+.carnaval02 {
+  margin-top: 21.4rem;
+}
+
+#content {
+  display: grid;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#content p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #e45858;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  margin-top: 10rem;
+}
+
+#content strong {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  width: 64.7rem;
+  color: #121214;
+  justify-self: center;
+  margin-top: 1.8rem;
+}
+
+#content strong span {
+  color: #6246ea;
+}
+
+#busca {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  margin-top: 4rem;
+  gap: 2.4rem;
+}
+
+#busca form {
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 0.8rem 1.2rem 1.4rem;
+}
+
+#busca form input,
+select {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  margin-left: 1.2rem;
+  border: solid white;
+  color: #7c7c8a;
+}
+
+#busca button {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: white;
+  background: #6246ea;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1.2rem 3.2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#busca button:hover {
+  background-color: #00c8ff;
+  transition: 0.2s;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  margin: 10rem 11.2rem;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 140%;
+  color: #121214;
+  margin-bottom: 4rem;
+}
+
+#buttons {
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  border: 0.1rem solid #eaeaea;
+  border-radius: 0.6rem;
+}
+
+#list {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: white;
+  background: #6246ea;
+  border-radius: 5px;
+  padding: 0.4rem 2.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+#map {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #6246ea;
+  padding: 0.4rem 2.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 34px 19px rgba(234,234,234,1);
+  -moz-box-shadow: 0px 0px 34px 19px rgba(234,234,234,1);
+  box-shadow: 0px 0px 34px 19px rgba(234,234,234,1);
+  transition: 0.2s;
+}
+
+.cardimg {
+  width: 38.4rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.card {
+  display: grid;
+  max-width: 38.4rem;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+}
+.info {
+  display: grid;
+  padding: 1.6rem;
+  gap: 1.6rem;
+}
+
+.card p {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 140%;
+  color: #121214;
+}
+
+.card span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#city {
+  display: flex;
+}
+
+#city span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  margin-left: 0.8rem;
+  color: rgba(0, 0, 0, 0.75);
+}
